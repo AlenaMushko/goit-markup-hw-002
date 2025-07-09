@@ -22,39 +22,13 @@ body {
   font-weight: 400;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-  padding: 0;
-}
-
 ul {
   list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 li,
 a {
   text-decoration: none;
-}
-
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
 }
 
 .section-title {
@@ -68,7 +42,7 @@ a {
 }
 
 /*-------------------card*/
-card-item {
+.card-item {
   background-color: var(--background-white-color);
 }
 
@@ -100,11 +74,8 @@ button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   text-align: center;
-  letter-spacing: 0.64px;
-  box-shadow: var(--btn-shadow-color);
+  letter-spacing: 0.04em;
 }
 
 .button:hover,
@@ -169,7 +140,6 @@ button {
 }
 
 .hero-title {
-  width: 630px;
   color: var(--title-accend-color);
   font-weight: 700;
   font-size: 56px;
