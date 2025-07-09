@@ -151,14 +151,15 @@ button {
 
 /*!*----------------------------advantages*!*/
 
-.advantages-list > li > h3 {
+.advantages-title {
+  color: var(--darc-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
-.advantages-list > li > p {
+.advantages-text {
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.5;
